@@ -21,31 +21,41 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+ <body>
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="logo header-logo" href="./index.html"
+            ><img
+              src="./images/logo.svg"
+              width="40"
+              height="36"
+              alt="Logotype"
+            />Product</a
+          >
 
-  <body>
-    <header>
-      <a href="./index.html"
-        ><img
-          src="./images/logo.svg"
-          width="40"
-          height="36"
-          alt="logotype"
-        />Product</a
-      >
-      <nav>
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="">Resources</a></li>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link current" href="./index.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./customers.html">Customers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="">Resources</a></li>
+          </ul>
+        </nav>
+
+        <ul class="auth-list">
+          <li class="auth-item"><a class="auth-link" href="">Sign In</a></li>
+          <li class="auth-item">
+            <a class="auth-link auth-link-dark" href="">Sign Up</a>
+          </li>
         </ul>
-        <ul>
-          <li><a href="">Sign In</a></li>
-          <li><a href="">Sign Up</a></li>
-        </ul>
-      </nav>
+      </div>
     </header>
-
     <main>
       <!-- Hero -->
       <section>
@@ -209,7 +219,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="footer-nav">
       <a href="./index.html"
         ><img
           src="./images/logo.svg"
